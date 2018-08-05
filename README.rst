@@ -16,7 +16,7 @@ Medusa
 
 
 
-Concurrency for the rest of us.
+An experiment in AST mutation.
 
 
 * Free software: MIT license
