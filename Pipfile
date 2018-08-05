@@ -7,12 +7,18 @@ name = "pypi"
 pytest = "*"
 "flake8" = "*"
 "autopep8" = "*"
-black = "*"
 mypy = "*"
+white = "*"
+black = "*"
+jupyter = "*"
 
 [packages]
 gevent = "*"
 astor = "*"
+billiard = "*"
+requests = "*"
+ipykernel = "*"
+pygithub = "*"
 
 [requires]
 python_version = "3.7"

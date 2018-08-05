@@ -30,7 +30,7 @@ help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
 autoformat:
-	autopep8 --in-place --a -a -a --max-line-length 79 medusa/***.py tests/***.py
+	white medusa tests
 
 clean: clean-build clean-pyc clean-test ## remove all build, test, coverage and Python artifacts
 
